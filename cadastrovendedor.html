@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Vendedores - ConectaMais</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <header>
+    <h1>Cadastro de Vendedores</h1>
+  </header>
+
+  <main>
+    <form action="salvar_vendedor.js" method="POST" class="formulario">
+      <label>Nome Completo:</label><br>
+      <input type="text" name="nome" required><br><br>
+
+      <label>E-mail:</label><br>
+      <input type="email" name="email" required><br><br>
+
+      <label>Telefone:</label><br>
+      <input type="text" name="telefone" placeholder="(xx) xxxxx-xxxx" required><br><br>
+
+      <label>CPF:</label><br>
+      <input type="text" name="cpf" placeholder="000.000.000-00" required><br><br>
+
+      <button type="submit">Salvar Vendedor</button>
+    </form>
+
+    <div class="botoes">
+      <a href="index.html" class="botao">Página Inicial</a>
+      <a href="cadastroproduto.html" class="botao">Cadastro de Produtos</a>
+      <a href="registrovendas.html" class="botao">Registro de Vendas</a>
+    </div>
+
+    <br>
+    <a href="index.html">Voltar ao menu principal</a>
+  </main>
+</body>
+</html>

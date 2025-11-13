@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Produtos - ConectaMais</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <h1>Cadastro de Produtos</h1>
+
+  <form action="salvar_produto.js" method="POST">
+    <label>Nome do Produto:</label><br>
+    <input type="text" name="nome" required><br><br>
+
+    <label>Categoria:</label><br>
+    <input type="text" name="categoria" required><br><br>
+
+    <label>Preço Unitário (R$):</label><br>
+    <input type="number" name="preco" step="0.01" required><br><br>
+
+    <label>Descrição (opcional):</label><br>
+    <textarea name="descricao" rows="3"></textarea><br><br>
+
+    <button type="submit">Salvar Produto</button>
+  </form>
+
+  <div class="botoes">
+    <a href="index.html" class="botao">Página Inicial</a>
+    <a href="cadastrovendedor.html" class="botao">Cadastro de Vendedores</a>
+    <a href="registrovendas.html" class="botao">Registro de Vendas</a>
+  </div>
+
+</body>
+</html>
